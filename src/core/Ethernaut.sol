@@ -3,7 +3,7 @@
 pragma solidity ^0.8.0;
 
 import "./BaseLevel.sol";
-import '@openzeppelin/contracts/access/Ownable.sol';
+import 'openzeppelin-contracts-v4.7.3/contracts/access/Ownable.sol';
 
 interface IStatistics {
     function saveNewLevel(address level) external;
